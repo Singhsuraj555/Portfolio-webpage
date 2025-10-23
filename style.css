@@ -46,10 +46,12 @@ html,body{
     left: 0;
     bottom: -5px;
     transform: scaleX(0); /* esse line dikhna gayab ho jayega*/
+    transform-origin: bottom left;
     transition: transform .3s;
 }
 .nav li a:hover::after{
     transform: scaleX(1); /* esse hover krne p line aa jayega*/
+    transform-origin: bottom right;   
 }
 .left-div, .right-div{
     height: 100vh;
