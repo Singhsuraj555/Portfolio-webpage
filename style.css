@@ -74,7 +74,7 @@ html,body{
 }
 .icons .fa-brands:hover{
     background: linear-gradient(#bbb,rgb(131, 131, 237));
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 .icons{
